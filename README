@@ -1,0 +1,11 @@
+
+```
+export AWS_USER=
+export AWS_REGION=
+```
+AA
+```
+build.sh ${IMAGE_SOURCE} ${IMAGE_NAME} ${IMAGE_TAG}
+push.sh bgsi/${IMAGE_NAME} ${IMAGE_TAG}
+```
+
