@@ -15,6 +15,7 @@ docker build \
 
 # build the image with an AWS specific entrypoint
 docker build \
+    --no-cache \
     --platform linux/amd64 \
     --build-arg IMAGE_NAME=${IMAGE_NAME} \
     --build-arg IMAGE_TAG=${IMAGE_TAG} \
